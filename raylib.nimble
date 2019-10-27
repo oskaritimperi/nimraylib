@@ -3,6 +3,8 @@ author        = "Oskari Timperi"
 description   = "A new awesome nimble package"
 license       = "Zlib"
 
+skipDirs = @["examples"]
+
 requires "nim >= 1.0.2"
 requires "nimgen >= 0.5.1"
 
