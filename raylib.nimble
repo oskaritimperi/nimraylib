@@ -14,7 +14,7 @@ requires "nim >= 1.0.2"
 requires "nimgen >= 0.5.1"
 
 var
-  name = "nimraylib"
+  name = "raylib"
   cmd = when defined(Windows): "cmd /c " else: ""
   ext = when defined(Windows): ".exe" else: ""
   ldpath = when defined(Linux): "LD_LIBRARY_PATH=x64 " else: ""
