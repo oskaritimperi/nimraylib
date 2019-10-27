@@ -28,7 +28,7 @@ task setup, "Checkout and generate":
     exec cmd & "nimgen " & name & ".cfg"
 
 before install:
-  setupTask()
+    setupTask()
 
 # task test, "Test nimbass":
 #   exec "nim c -d:nimDebugDlOpen tests/basstest.nim"
